@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("background.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  h1 {
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50px;
+  }
+  
+  #header {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  .logo-container {
+    flex-shrink: 0;
+  }
+  
+  .logo {
+    width: 50px; /* Adjust as needed */
+    height: auto;
+  }
+  nav {
+    color: #fff;
+    display: flex;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0;
+    padding: 0px 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  section {
+    margin: 20px;
+    padding: 10px;
+  }
+  #home {
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    min-height: 540px;
+  }
+  #about {
+    background: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    min-height: 540px;
+  }
+  #contact {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    min-height: 540px;
+    label {
+      display: inline-block;
+      width: 110px;
+    }
+    input {
+      width: 200px;
+      padding: 5px;
+      margin-bottom: 10px;
+    }
+    textarea {
+      width: 200px;
+      height: 100px;
+      padding: 5px;
+      margin-bottom: 10px;
+    }
+  }
+  
